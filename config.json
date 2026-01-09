@@ -1,0 +1,18 @@
+{
+    "modulos": {
+        "reemplazo_texto": {
+            "activo": true,
+            "descripcion": "Reemplazo masivo de texto/IP en archivos del proyecto",
+            "reglas": [
+                {
+                    "buscar": "192.168.0.1",
+                    "reemplazar_por": "192.168.0.2",
+                    "tipo": "ip"
+                }
+            ]
+        }
+    },
+    "postfijo": "_MODIFICADO",
+    "carpeta_entrada": "data_in",
+    "carpeta_salida": "data_out"
+}
